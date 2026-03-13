@@ -1,7 +1,7 @@
 Proceso Calculadora
-	// Me tomo como 4 horas poder hacerlo le agradeceria culquier consejo jajaja
-	// Este es el intento Numero 10, trate de hacerlo lo mas ordenado posible 
-	// Lo importante es que funciona 
+	
+	
+	
 	Definir opc,a,b Como Entero;
 	Repetir
 		Escribir "========================";
