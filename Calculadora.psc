@@ -1,14 +1,12 @@
 Proceso Calculadora
 	
-	
-	
 	Definir opc,a,b Como Entero;
 	Repetir
 		Escribir "========================";
 		Escribir "1 - Suma";
 		Escribir "2 - Resta";
-		Escribir "3 - Multipplicacion";
-		Escribir "4 - Dividicion";
+		Escribir "3 - Multiplicacion";
+		Escribir "4 - Divicion";
 		Escribir "5 - Salir";
 		Escribir "========================";
 	 
