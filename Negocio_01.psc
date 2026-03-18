@@ -1,21 +1,60 @@
 Proceso Negocio_01
-	Definir opc Como Entero;
+	Definir opc, R, Clp1,Clp2,Clp3,Clp4 Como Entero;
+	Definir Iva Como Real;
+	Repetir
+		// le queria colocar una opcion que le pregunte si desea confirmar la compra (s/n), despues de selecionar la opcion del menu  
+		// y dependiendo de la respuesta se reinicia el prceso para poder elejir otra opcion o se termina
+		// pero se me complico demasiado :c, lo podriamos ver en alguna futura clase el como hacerlo ?
+		
+		Iva = 1.19;
+		Clp1 = 2700;
+		Clp2 = 2500;
+		Clp3 = 3500;
+		Clp4 = 3600;
+		
+		Escribir "=============================================================";
+		Escribir "             Hola bienvenido a BurgerKiss";// ignore el nombre jajaja
+		Escribir "";
+		Escribir "       Por favor elija una opcion de nuestro menu ";
+		Escribir "";
+		Escribir "1- Palta Mayo mas Coca Cola de 500CC ";
+		Escribir "2- Completo Italiano mas Coca Cola de 500CC";
+		Escribir "3- Churrasco Italiano mas Cafe Espresso";
+		Escribir "4- Churrasco Queso mas Cafe Americano";
+		Escribir "5- salir del menu";
+		Escribir "";
+		Escribir "=============================================================";
+		Leer opc;
+		
+		Segun opc Hacer
+			1:
+				Escribir "      Tiene un valor de: ", (Clp1 * Iva)," Pesos, IVA incluido" ;
+				Escribir "          Gracias por comprar con nosotros";
+				
+			2:
+				Escribir "      Tiene un valor de: ", (Clp2 * Iva)," Pesos, IVA incluido";
+				Escribir "          Gracias por comprar con nosotros";
+				
+			3:  
+				Escribir "      Tiene un valor de: ", (Clp3 * Iva), " Pesos, IVA incluido";
+				Escribir "          Gracias por comprar con nosotros";
+				
+			4: 
+				Escribir "      Tiene un valor de: ", (Clp4 * Iva), " Pesos IVA incluido";
+				Escribir "          Gracias por comprar con nosotros";
+				
+			5: 
+				Escribir "              Adios, Vuelve Pronto!!";
+				
+			De Otro Modo:
+				Escribir "Opcion no valida, por favor intente de nuevo";
+				
+		FinSegun
+			
+			
+	Hasta Que (opc=5)		
 	
-	Escribir "            Hola bienvenido a BurgerKiss";
-	Escribir "";
-	Escribir "1- Palta Mayo mas Coca Cola de 500CC ";
-	Escribir "2- Completo Italiano mas Coca Cola de 500CC";
-	Escribir "3- Churrasco Italiano mas Cafe espresso";
-	Escribir "4- ........";
-	Escribir "5- Deseas salir del menu ?";
-	Escribir "";
-	
-	Leer opc;
-	
-	Segun opc Hacer
-		1:
-			Escribir "Has seleccionado la opcion 1, tiene un valor de: ", ( 3500 * 1,21 );
-	FinSegun
+
 	
 	
 	
