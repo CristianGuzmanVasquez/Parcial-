@@ -10,7 +10,7 @@ Proceso Negocio_01
 		Clp4 = 3600;
 		
 		Escribir "=============================================================";
-		Escribir "             Hola bienvenido a BurgerKiss";// ignore el nombre jajaja
+		Escribir "             Hola bienvenido a BurgerKiss";
 		Escribir "";
 		Escribir "       Por favor elija una opcion de nuestro menu ";
 		Escribir "";
