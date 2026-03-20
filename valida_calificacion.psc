@@ -14,17 +14,4 @@ Proceso valida_calificacion
 	Hasta Que notas >= 1 y notas <= 7 
 	Escribir "Calificacicion Valida ", notas;
 	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
 FinProceso
