@@ -2,9 +2,6 @@ Proceso Negocio_01
 	Definir opc, R, Clp1,Clp2,Clp3,Clp4 Como Entero;
 	Definir Iva Como Real;
 	Repetir
-		// le queria colocar una opcion que le pregunte si desea confirmar la compra (s/n), despues de selecionar la opcion del menu  
-		// y dependiendo de la respuesta se reinicia el prceso para poder elejir otra opcion o se termina
-		// pero se me complico demasiado :c, lo podriamos ver en alguna futura clase el como hacerlo ?
 		
 		Iva = 1.19;
 		Clp1 = 2700;
