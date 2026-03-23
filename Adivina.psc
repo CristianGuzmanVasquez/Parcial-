@@ -23,7 +23,7 @@ Proceso Adivina
 			hip<-l2;
 			cat2<-l3;
 		SiNo
-			hip<-l2;
+			hip<-l3;
 			cat2<-l2;
 		FinSi
 	FinSi
