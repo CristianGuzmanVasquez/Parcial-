@@ -1,12 +1,12 @@
-Proceso calculadora_Suma_Resta_02
+Proceso calculadora_Suma_Resta_03
 	
 	Definir opc, A, B Como Entero;
 	Definir R Como Caracter;
 	
 	Repetir
 		
-		
-		Escribir "  Que operacion deseas realizar";
+		Escribir "";
+		Escribir "  Que operacion matematica deseas realizar";
 		Escribir " 1- Sumar"; 
 		Escribir " 2- Restar";
 		Escribir " 3- Salir";
@@ -15,28 +15,38 @@ Proceso calculadora_Suma_Resta_02
 		Segun opc Hacer
 			
 		1: 
-			Escribir "  Ingresa tu primer numero";
+			Escribir "  Ingrese su primer numero";
 			Leer A;
-			Escribir "  Ingresa tu segundo numero";
+			Escribir "  Ingrese su segundo numero";
 			Leer B;
-			Escribir "  El resultado de tu suma es: ", (A+B);
-			R<- "n";
+			Escribir "";
+			Escribir "  El resultado de la suma es: ", (A+B);
+			R <- "n";
 			
 		2: 
-			Escribir "  Ingresa tu primer numero";
+			Escribir "  Ingrese su primer numero";
 			Leer A;
-			Escribir "  Ingresa tu segundo numero";
+			Escribir "  Ingrese su segundo numero";
 			Leer B;
-			Escribir "  El resultado de tu resta es: ", (A-B);
-			R<- "n";
+			Escribir "";
+			Escribir "  El resultado de la resta es: ", (A-B);
+			R <- "n";
 			
 		3: 
-			Escribir "  Estas Seguro que deseas salir? (s/n)";
+			Escribir "  Esta Seguro que desea salir? (s/n)";
 			Leer R;
 			
 			Si R = "s" Entonces
-				Escribir "  Gracias por usar nuestro servicio";
+				Escribir "  Gracias por utilizar nuestro servicio";
 			FinSi
+			
+		De Otro Modo:
+			Escribir "";
+			Escribir "Opcion invalida, Intente nuevamente";
+			R <- "n";
+			
+	Esperar 1 Segundos;		
+			
 	FinSegun
 		
 	Hasta Que (R="s")
